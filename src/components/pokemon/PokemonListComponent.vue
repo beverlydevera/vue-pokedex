@@ -104,7 +104,7 @@ export default {
 .actions {
     display: flex;
     justify-content: space-between;
-    padding: 0 20px 20px;
+    padding-bottom: 20px;
 
     .pagination {
         .btn--yellow {
@@ -126,7 +126,6 @@ export default {
     display: flex;
     flex-flow: wrap;
     justify-content: space-between;
-    margin: 0 20px;
 }
 .pokemon--item {
     display: flex;
@@ -154,11 +153,20 @@ export default {
     }
 }
 
+// Tab Pro
+@media screen and (max-width: 1024px) {
+    .pokemon--item {
+        width: 48%;
+    }
+}
+
 // Tab
 @media screen and (max-width: 992px) {
     .actions {
+        flex-flow: wrap;
         .pagination {
-            width: 32%;
+            margin-top: 20px;
+            margin-left: auto;
         }
     }
     .pokemon--item {

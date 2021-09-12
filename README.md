@@ -35,7 +35,7 @@ npm run serve
 ```
 **Step 5.** After all the installations, you can go to the localhost server where the app is running.
 
-_e.g. http://localhost:8080/_
+_http://localhost:3001/_
 
 ## Testing the application
 To run the tests for the application, you can run the following code:
